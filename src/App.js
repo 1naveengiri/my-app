@@ -18,8 +18,10 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <button onClick={ this.increment }>Increment</button>
-        {this.state.counter}
+        <div className='Container'>
+          <button className='button button-primary' onClick={ this.increment }>Increment</button>
+          <span>{this.state.counter}</span>
+        </div>
         <Footer/>
       </div>
     );

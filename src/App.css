@@ -7,11 +7,39 @@
   height: 80px;
 }
 
-.App-header {
+.Footer, .App-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
+}
+.Footer{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.button{
+  color: #ffffff;
+  border-color: #ccc;
+  background: #0085ba;
+  border-color: #0073aa #006799 #006799;
+  box-shadow: 0 1px 0 #ccc;
+  vertical-align: top;
+} 
+.button-primary{
+  font-size: 13px;
+  line-height: 26px;
+  display: inline-block;
+}
+
+.Container{
+  min-height: 500px;
+  margin-top: 10px;
+  text-align: center;
+}
+.Container span{  
+  padding-left: 20px;
+  font-size: 25px;
 }
 
 .App-title {
@@ -26,3 +54,4 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
